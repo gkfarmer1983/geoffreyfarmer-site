@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 40px 0;
+  background-color: #111;
+  color: #fff;
+  font-family: Georgia, serif;
+  text-align: center;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.4rem;
+  color: #ccc;
+  margin-bottom: 40px;
+  width: 800px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.articles {
+  margin-top: 20px;
+}
+
+.articles h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.articles a {
+  color: #9e30ff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.articles a:hover {
+  text-decoration: underline;
+}
+
+/* Override link color on homepage only */
+.homepage .articles a {
+  color: #fff;
+}
